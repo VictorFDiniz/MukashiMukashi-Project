@@ -1,10 +1,10 @@
 # MukashiMukashi Project
 
-**Illustrated folklore web reader** — traditional stories presented as a calm digital book, page by page.
+**Illustrated folklore web reader** for traditional stories presented as a calm digital book, page by page.
 
-🌐 **[Live site → mukashimukashi.net](https://www.mukashimukashi.net)**
+**Live site:** [mukashimukashi.net](https://www.mukashimukashi.net)
 
-This public repository is a showcase for the project. The production source code is maintained in a private repository.
+This repository is a public showcase for the project.
 
 ---
 
@@ -14,7 +14,9 @@ This public repository is a showcase for the project. The production source code
 
 ![Home hero](screenshots/home-hero.webp)
 
-![Story library](screenshots/home-library.webp)
+### Story Index
+
+![Story index](screenshots/home-library.webp)
 
 ### Reader
 
@@ -26,25 +28,18 @@ This public repository is a showcase for the project. The production source code
 
 ---
 
-## Highlights
+## About
 
-- Digital book-style reader with page-by-page navigation
-- Illustrated Japanese folktales, including Urashima Taro, Momotaro, The Witch and the Monk, The Good Old Man and the Bad Old Man, and The Carpenter and the Demon
-- Multilingual experience in 15 languages: Portuguese, English, Japanese, Spanish, Chinese, Italian, Thai, Vietnamese, Russian, Indonesian, French, German, Korean, Hindi, and Swedish
-- Automatic language routing on the homepage, with bot-safe behavior for search engines
-- Local reading progress, favorites, search, font selection, and accessibility-minded controls
-- Optimized AVIF images with WebP fallbacks
-- SEO-ready metadata, canonical URLs, hreflang alternates, JSON-LD, robots.txt, and sitemap.xml
-- Responsive layouts for desktop and mobile reading
+MukashiMukashi is a digital reading experience inspired by illustrated storybooks. It brings Japanese folktales to the web with hand-crafted illustrations, quiet navigation, and a page-by-page rhythm designed for immersive reading.
 
-## Stack
+The project currently features stories such as Urashima Taro, Momotaro, The Witch and the Monk, The Good Old Man and the Bad Old Man, and The Carpenter and the Demon.
 
-| Layer | Technology |
-|-------|------------|
-| Framework | Next.js 16, Pages Router, React 19 |
-| Styling | Tailwind CSS 3 with a custom paper-inspired theme |
-| Images | AVIF primary assets with WebP fallback |
-| i18n | Custom locale routing and localized story metadata |
-| SEO | Open Graph, Twitter Cards, JSON-LD, sitemap, canonical and hreflang |
-| Deploy | Vercel |
+## Experience
+
+- Illustrated folklore stories in a book-like interface
+- Page-by-page reading on desktop and mobile
+- Multilingual presentation for readers around the world
+- Search, favorites, reading progress, and font preferences
+- Audio narration support through the browser
+- Fast-loading optimized illustrations
 
